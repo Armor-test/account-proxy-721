@@ -1,0 +1,39 @@
+# CODEOWNERS file for account-proxy-721
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-performance @Armor-test/dept-reporting @Armor-test/squad-ux
+
+# Directory ownership
+/data/ @Armor-test/dept-release @Armor-test/dept-reliability
+/test/ @Armor-test/squad-ux @Armor-test/squad-mobile @Armor-test/squad-payments
+/views/ @Armor-test/dept-identity @Armor-test/unit-design
+/examples/ @Armor-test/dept-data @Armor-test/grp-payments @Armor-test/squad-mobile
+/pkg/ @Armor-test/dept-reliability @Armor-test/dept-security
+/auth/ @Armor-test/team-research @Armor-test/squad-payments @Armor-test/squad-ux
+/ui/ @Armor-test/team-research @Armor-test/dept-api
+/deploy/ @Armor-test/squad-search @Armor-test/grp-api @Armor-test/team-logging
+/api/ @Armor-test/team-research @Armor-test/squad-cloud
+/static/ @Armor-test/team-security @Armor-test/squad-reporting
+/scripts/ @Armor-test/squad-reporting @Armor-test/squad-apps @Armor-test/squad-payments
+/plugins/ @Armor-test/squad-ux @Armor-test/dept-test @Armor-test/dept-identity
+/src/ @Armor-test/squad-reporting @Armor-test/squad-database
+/app/ @Armor-test/grp-payments @Armor-test/squad-cloud
+/security/ @Armor-test/squad-mobile @Armor-test/dept-notifications @Armor-test/squad-product
+
+# File type ownership
+*.gradle @Armor-test/team-logging @Armor-test/unit-test @Armor-test/squad-reporting
+*.tsx @Armor-test/unit-design @Armor-test/dept-logging @Armor-test/team-research
+*.config @Armor-test/squad-tooling @Armor-test/squad-reporting @Armor-test/dept-ui
+*.c @Armor-test/squad-mobile @Armor-test/team-notifications @Armor-test/team-logging
+*.sh @Armor-test/team-frontend @Armor-test/team-notifications @Armor-test/squad-cloud
+*.json @Armor-test/team-logging @Armor-test/dept-notifications @Armor-test/dept-api
+*.properties @Armor-test/squad-qa @Armor-test/dept-data @Armor-test/unit-governance
+*.lock @Armor-test/unit-design @Armor-test/dept-data
+*.php @Armor-test/squad-frontend @Armor-test/grp-storage
+*.proto @Armor-test/squad-tooling @Armor-test/grp-payments @Armor-test/team-notifications
+*.tf @Armor-test/squad-cloud @Armor-test/dept-ui
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
